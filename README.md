@@ -1,2 +1,0 @@
-# errorMakesClever
-#  wellcome to all

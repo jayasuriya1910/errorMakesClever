@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}  
+
+.hero-section {
+    background-image: url(./Images/image_3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+  
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom:20px;
+}
+  
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+  
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 3%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+
+
+.logo{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+.navbar a:hover{
+    color:grey;
+    text-decoration:underline;
+    text-underline-offset: 5px;
+    text-decoration-color: chocolate;
+    text-decoration-thickness: 3px;
+
+}
+
+
+
+
+.section2{
+    padding: 30px;
+    
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    gap: 50px; 
+}
+
+.text {
+    flex: 1 1 45%;
+    min-width: 280px;
+    margin-bottom:50px;
+}
+
+.about{
+    text-align: center;
+    font-size: 2.5em;
+    text-decoration:underline;
+    text-decoration-color:chocolate;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 10px;
+    margin-bottom: 40px;
+}
+
+.name{
+    font-size: 2em;
+    color: chocolate;
+    margin-bottom: 10px;
+}
+
+.role{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: chocolate;
+
+}
+
+.description{
+    text-align: left;
+    font-size: 17px;
+}
+
+
+.image2 {
+    flex: 1 1 45%;
+    min-width: 280px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.image2 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 400px;
+}
+
+.servicehead {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: chocolate;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 10px;
+    margin-bottom: 30px;
+}
+
+.services {
+    padding: 30px;
+    background-image: url(./Images/image_11.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    bottom: 50px;
+}
+
+
+.services-wrapper {
+    display:flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+
+.service1 {
+    color: black;
+    flex: 0 0 32%;
+    padding: 25px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-color: white;
+}
+
+.service1 h2{
+    color:chocolate;
+    font-size:1.5em;
+}
+
+.service1 p{
+    font-size: 1em;
+    color: white;
+}
