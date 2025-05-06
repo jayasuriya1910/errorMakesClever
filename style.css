@@ -1,0 +1,23 @@
+*{
+  margin: 0%;
+  padding: 0%
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+Section {
+    padding: 4rem 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+
+    .External{
+        background: rgb(154, 255, 193);
+        border-radius: 4%;
+        box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+        padding: 2rem;
+    }
+
+    h1{
+        padding-bottom: 2%;
+    }
