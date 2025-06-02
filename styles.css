@@ -1,0 +1,36 @@
+/* Element Selector  <tags> */
+section{
+    padding :20px;
+    /* margin: 10px; */
+    background-color: rgb(126, 167, 72);
+    border-radius: 20px ;
+    color:#fff;
+}
+h1{
+    font-size: 10px;
+}
+
+/* Class Selector ( . )*/
+.headertags{
+background-color: aqua;    
+}
+.heading1{
+    font-size: 08px;
+}
+
+/* Id Selector ( # ) */
+#heading3{
+    font-size: 2rem;
+}
+
+
+/* Universal Selector ( * ) */
+
+*{
+margin: 20px;
+}
+
+/* Grouping Selector ( , ) */
+h1,h2, h3, h4, h5, h6{
+
+}
